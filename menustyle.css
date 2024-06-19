@@ -1,0 +1,136 @@
+body{
+background-color:#eed0e7;
+	
+}
+.menu{
+	width:45%;
+	height:210px;
+	margin:1.2% ;
+	border: 1px solid black;
+	float:left;
+	padding:1%;
+	background-color:white;
+	border-radius:15px;
+}
+.header{
+	color:white;
+	font-size:150%;
+	font-weight:120;
+	text-align:center;
+	font-family:Comic Sans MS;
+	position: relative;
+background-size: cover;
+background-image:url("images/menu-bg.jpg");
+background-position: 0 -600;
+background-repeat:no-repeat;
+padding:5% 0;
+}
+.food-img{
+width:230px;
+height:205px;
+float:left;
+border-radius:20px;
+position: relative;
+  left: 20px;
+  
+}
+.clearfix{
+	clear:both;
+	float:none;
+}
+.food-desc{
+float:right;
+font-family:Comic Sans MS;
+width:50%;
+position:relative;
+}
+
+.price{
+	font-size:1.2rem;
+	margin:2% 0;	
+}
+.detail{
+	font-size:1rem;
+	color:#718093;	
+}
+.veg-nonveg{
+	width:20px;
+	float:right;
+	position:relative;
+	left:410px;
+	bottom:190px;
+}
+.qty{
+		margin:2% 0;	
+	
+}
+.checkout{
+	font-family:Comic Sans MS;
+	color:white;
+	text-align:center;
+	border:1px solid black;
+	padding:5%;
+	background-color:white;
+	border-radius:15px;
+	background-size: cover;
+background-image:url("images/checkout-bg.jpg");
+background-position: center;
+background-repeat:no-repeat;
+}
+
+#tot{
+	font-family:Comic Sans MS;
+    width: 120px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #74b9ff;
+	cursor: pointer;
+	margin: 20px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    border-radius: 10px;
+}
+#tot:hover{
+	background-color: #718093;
+}
+
+.btn {
+    font-family:Comic Sans MS;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    
+    border-radius: 15px;
+
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn:hover {
+    background-position: 100% 0;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn.color-1 {
+    background-image: linear-gradient(to right, #0C090A, #077e1b, #2cd882, #14eeca);
+    box-shadow: 0 4px 15px 0 rgba(45, 60, 80, 0.75);
+}
+.btn.color-2 {
+	background-image: linear-gradient(to right, #0C090A, #151B54, #6A0DAD, #3090C7);
+    box-shadow: 0 4px 15px 0 rgba(45, 60, 80, 0.75);
+}
+.btn.color-3 {
+    
+	background-image: linear-gradient(to right,  #0C090A, #551606, #B048B5, #F67280);
+    box-shadow: 0 4px 15px 0 rgba(45, 60, 80, 0.75);
+
+}
+
